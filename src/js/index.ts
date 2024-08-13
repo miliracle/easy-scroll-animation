@@ -1,3 +1,6 @@
+import { initContentOverlay } from './effects/contentOverlay';
+
+// Initialize the content overlay effect
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('EasyScrollAnimation Library Loaded');
-  });
+  initContentOverlay();
+});

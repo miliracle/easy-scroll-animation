@@ -15,20 +15,19 @@ export default defineConfig({
     outDir: '../dist',
     rollupOptions: {
       output: {
-        entryFileNames: '[name].js',   // Preserve the original filenames
+        entryFileNames: '[name].js', // Preserve the original filenames
         chunkFileNames: '[name].js',
         assetFileNames: '[name][extname]', // Preserve the original asset filenames
       },
-    }, 
+    },
   },
   server: {
     open: true,
-    port: 8900, 
+    port: 8900,
   },
   css: {
     preprocessorOptions: {
-      scss: {
-      },
+      scss: {},
     },
   },
 });

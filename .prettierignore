@@ -1,0 +1,9 @@
+# Ignore artifacts:
+dist/
+node_modules/
+
+# Ignore built files:
+*.min.js
+*.min.css
+
+package-lock.json
