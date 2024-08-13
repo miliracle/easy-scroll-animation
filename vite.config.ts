@@ -24,10 +24,5 @@ export default defineConfig({
   server: {
     open: true,
     port: 8900,
-  },
-  css: {
-    preprocessorOptions: {
-      scss: {},
-    },
-  },
+  }
 });
