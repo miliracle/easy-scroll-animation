@@ -1,23 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EasyScrollAnimation Test</title>
-  <link rel="stylesheet" href="/style/main.scss">
-</head>
-<body>
-  <div class="scroll-wrapper">
-    <div class="fixed-content">
-      THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyScrollAnimation Test</title>
+    <link rel="stylesheet" href="/style/main.scss" />
+  </head>
+  <body>
+    <div class="hero-banner">
+      <div class="content-wrapper">
+        <h1 class="text-3xl font-bold underline">the quick brown fox jump over the lazy dog</h1>
+        <div class="scrolling-items">
+          <div class="column">
+            <div class="c-placeholder-image-item"></div>
+            <div class="c-placeholder-image-item"></div>
+            <div class="c-placeholder-image-item"></div>
+          </div>
+          <div class="column right-column">
+            <div class="c-placeholder-image-item"></div>
+            <div class="c-placeholder-image-item"></div>
+            <div class="c-placeholder-image-item"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="scrolling-content">
-      <div style="background-color: lightcoral;">First Scroll Layer</div>
-      <div style="background-color: lightblue;">Second Scroll Layer</div>
-      <div style="background-color: lightgreen;">Third Scroll Layer</div>
-      <div style="background-color: lightyellow;">Fourth Scroll Layer</div>
-    </div>
-  </div>
-  <script type="module" src="/js/index.ts"></script>
-</body>
+    <script type="module" src="/js/index.ts"></script>
+  </body>
 </html>
